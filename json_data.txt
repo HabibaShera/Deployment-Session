@@ -1,0 +1,13 @@
+[
+
+{"Brand": "Hyundai", "Model": "Accent", "Body": "Sedan",
+"Color": "Blue", "Fuel": "Gasoline", "Kilometers": "40000 to 159999",
+"Engine": "1.6L", "Transmission": "Automatic", "Gov": "Yes",
+"Year": 2018}, 
+
+{"Brand": "Fiat", "Model": "Accent", "Body": "Sedan",
+"Color": "Red", "Fuel": "Gasoline", "Kilometers": "40000 to 159999",
+"Engine": "1.3L", "Transmission": "Automatic", "Gov": "Yes",
+"Year": 2018}
+
+]
