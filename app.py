@@ -10,7 +10,7 @@ with open('gbrt_pipeline.pkl', 'rb') as f:
 
 # Create a Flask app
 app = Flask(__name__)
-CORS(app, resources={r"/predict":{"origins":"http://127.0.0.1:5500"}})
+CORS(app, resources={r"/predict":{"origins":"*"}})
 
 @app.route('/')
 def home():
