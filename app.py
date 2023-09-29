@@ -2,15 +2,12 @@ from flask import Flask, request, jsonify
 import joblib
 import pandas as pd
 
-from flask_core import CORS
-
 with open('gbrt_pipeline.pkl', 'rb') as f:
     GBR_pipeline = joblib.load(f)
 
 
 # Create a Flask app
 app = Flask(__name__)
-CORS(app, resources={r"/predict":{"origins":"*"}})
 
 @app.route('/')
 def home():
